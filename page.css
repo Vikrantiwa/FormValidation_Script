@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100vw;
+  /* height: 100vh; */
+  background-color: aqua;
+  position: absolute;
+}
+.inner-container {
+  width: 45vw;
+  margin: 50px auto;
+
+  background-color: #fbf8f8;
+}
+.group-form {
+  width: 30vw;
+
+  /* position: relative;
+  top: 2vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+span {
+  width: 15vw;
+}
+.group-form .name,
+.email,
+.password {
+  width: 45vw;
+  padding: 5px;
+  /* height: 80vh; */
+  display: flex;
+  justify-content: space-between;
+}
+
+label {
+  /* padding: 10px; */
+  text-transform: capitalize;
+}
+input {
+  width: 20vw;
+  /* height: 5vh; */
+  border-radius: 5px;
+  padding: 5px;
+  text-transform: capitalize;
+}
+.gender {
+  padding: 5px;
+  width: 45vw;
+  display: flex;
+  justify-content: space-between;
+}
+.gender-name {
+  width: 20vw;
+  display: flex;
+  justify-content: space-between;
+}
+.male {
+  width: 6vw;
+  display: flex;
+  justify-content: space-between;
+}
+.female {
+  width: 6vw;
+  display: flex;
+  justify-content: space-between;
+}
+.custom {
+  width: 6vw;
+  display: flex;
+  justify-content: space-between;
+}
+.date-of-bitrh {
+  padding: 5px;
+  width: 45vw;
+  display: flex;
+  justify-content: space-between;
+}
+.birth {
+  width: 20vw;
+  display: flex;
+  justify-content: space-between;
+}
+.date {
+  width: 6vw;
+  display: flex;
+  justify-content: space-between;
+  background-color: aqua;
+}
+.month {
+  width: 6vw;
+  display: flex;
+  justify-content: space-between;
+  background-color: aqua;
+}
+.year {
+  width: 6vw;
+  display: flex;
+  justify-content: space-between;
+  background-color: aqua;
+}
+select {
+  width: 6vw;
+}
+.education {
+  padding: 5px;
+  width: 30vw;
+  display: flex;
+  justify-content: space-between;
+}
+.education-name {
+  width: 20vw;
+  display: flex;
+  justify-content: space-between;
+}
+.mba {
+  width: 6vw;
+  display: flex;
+  justify-content: space-between;
+}
+.bca {
+  width: 6vw;
+  display: flex;
+  justify-content: space-between;
+}
+.mca {
+  width: 6vw;
+  display: flex;
+  justify-content: space-between;
+}
+.time {
+  width: 30vw;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+.search {
+  width: 30vw;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+.file {
+  width: 30vw;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+.range {
+  width: 30vw;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+.color {
+  width: 30vw;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+.datetime-local {
+  width: 30vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+.number {
+  width: 30vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+.week {
+  width: 30vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+.url {
+  width: 30vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+.tel {
+  width: 30vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+.tel {
+  width: 30vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+.tel {
+  width: 30vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+.tel {
+  width: 30vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+.hideen {
+  width: 30vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+.sub-rest {
+  width: 30vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+.sub-rest input {
+  width: 10vw;
+  background-color: black;
+  color: white;
+}
+.sub-rest input:hover {
+  width: 10vw;
+  background-color: white;
+  color: black;
+}
